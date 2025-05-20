@@ -16,6 +16,10 @@ For each address, answer the following questions:
 
 If no address is found, say so clearly.
 
+If you are not confident in the address’s purpose or ownership, return "unknown".
+Do NOT guess or fabricate purpose or entity names unless clearly stated in the content.
+Only make judgments based on explicit or strongly implied context.
+
 Return your answer in the following structured format:
 
 [

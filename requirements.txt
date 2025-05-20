@@ -1,0 +1,7 @@
+selenium>=4.27.1
+webdriver-manager
+openai>=1.0.0
+pyyaml
+pandas
+base58
+bech32

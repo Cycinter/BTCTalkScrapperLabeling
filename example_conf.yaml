@@ -1,0 +1,19 @@
+# === Paths ===
+path_threads: "BitcoinTalkThreads"            # Original thread JSONs (still required by old modules, can ignore)
+merged_data_dir: "data"
+path_other_sources: "LabelingOtherSources"    # External labeled data (optional)
+path_chatgpt_resps: "resps"                   # Folder to save ChatGPT response files
+max_files_per_folder: 100000                  # Max responses per folder before creating a new one
+
+# === OpenAI settings ===
+openai_key: ""    # Your OpenAI API key (keep private!)
+openai_model: "gpt-4o-mini"                   # GPT model to use
+
+# === Turn ON new enhanced GPT labeling with message + profile ===
+do_profile_address: true                      # ✅ Enable your unified message+profile labeling task
+
+# === Turn OFF old labeling modules ===
+do_deposit: false         # Old module: Extract deposit addresses
+do_withdraw: false        # Old module: Extract withdrawal transactions
+do_withdraw2: false       # Old module: Extract withdrawal addresses (2nd method)
+do_hot_cold: false        # Old module: Classify hot vs cold wallets

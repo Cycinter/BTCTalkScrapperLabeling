@@ -62,10 +62,12 @@ for post in filtered_posts:
 from get_user_profile_raw import get_raw_profile_from_user
 # for each poster_id, scrape raw profile HTML
 # then write to: data/merged_posts_with_profiles_topic{topic_id}.json
+```
 
 ### 5.Run GPT-based labeling
 ```python
 python extract_address_with_chatgpt.py
+```
 
 ## 📄 GPT Output Format
 ```json
@@ -84,3 +86,4 @@ python extract_address_with_chatgpt.py
   ]
 }
 ```
+

@@ -36,4 +36,4 @@ Important:
 - Only return a valid JSON list.
 - Do not include any explanation, comments, or extra text before or after the JSON.
 - Do not wrap the result in markdown blocks (e.g. no ```json).
-
+- ⚠️ If your output is not valid JSON, the system will break. Please be strict.

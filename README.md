@@ -14,8 +14,6 @@ pip install -r requirements.txt
 ## 🔧 Configuration
 Update conf.yaml with your OpenAI API key
 
-## 🔧 Configuration
-
 ### 1. Set topic_id in your notebook or script:
 ```python
 topic_id = 203
